@@ -1,0 +1,11 @@
+{
+  "homepage": "https://bharathgoudganagoni.github.io/tpo-partnership",
+  "scripts": {
+    "build": "echo Build completed",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
